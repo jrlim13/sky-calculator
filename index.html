@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel = "stylesheet" type = "text/css" href = "style.css">
+		<title>Sky Calculator</title>
+	</head>
+	
+	<body onload = "startUp()">
+		<div id = "site_title">
+			<h1>Sky Calculator</h1>
+		</div>
+		
+		<form>
+			<div id = "formFirst" class = "label">
+				First Number:
+				<input type = "number" id = "first" class = "textInput"/>
+			</div>
+			
+			<div id = "formSecond" class = "label">
+				Second Number:
+				<input type = "number" id = "second" class = "textInput"/>
+			</div>
+
+			<div id = "formResult" class = "label">
+					Result
+					<input type="text" id="result" class="textInput" readonly/>
+			</div>
+
+			<table id="btnGrp">
+				<tr>
+					<td><input type = "button" value = "Add" id = "btnAdd" onclick = 'getSum()'/></td>
+					<td><input type = "button" value = "Subtract" id = "btnDiff" onclick = 'getDiff()'/></td>
+					<td><input type = "button" value = "Multiply" id = "btnProd" onclick = 'getProd()'/></td>
+				</tr>
+
+				<tr>
+					<td><input type = "button" value = "Divide" id = "btnDiv" onclick = 'getDiv()'/></td>
+					<td><input type = "button" value = "Exponent" id = "btnExp" onclick = 'getExp()'/></td>
+					<td><input type = "button" value = "Square Root(1st)" id = "btnSqrt" onclick = 'getSqrt()'/></td>
+				</tr>
+
+			</table>
+			
+		</form>
+		
+	<script src = "https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src = "script.js"></script>
+	
+	</body>
+</html>

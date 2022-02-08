@@ -1,0 +1,81 @@
+@font-face {
+  	font-family: Ailerons;
+	src: url("Ailerons.ttf") format("truetype");
+}
+
+body {
+	background-image: url("sky.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	font-family: Ailerons;
+	color: white;
+}
+
+#site_title {
+	background: rgba(122, 122, 122, 0.3);
+	text-align: center;
+	margin-top: 3%;
+	font-size: 3em;
+}
+
+.label {
+	margin-bottom: 3%;
+	width: 40%;
+	font-size: 2em;
+}
+
+input[type=number], input[type=text] {
+	background: rgba(100, 100, 100, 0.3);
+	color: white;
+	font-family: Ailerons;
+	font-size: 28px;
+	border: 2px solid white;
+}
+
+#formFirst { 	
+	/* margin-left: 31%; */
+	margin-left: auto;
+	margin-right: auto;
+	width: 24%;
+}
+
+#formSecond {
+	/* margin-left: 30%; */
+	margin-left: auto;
+	margin-right: auto;
+	width: 24%;
+}
+
+input[type=button] {
+	padding: 0.5ex;
+	background: rgba(122, 122, 122, 0.3);
+	border: none;
+	color: white;
+	font-family: Ailerons;
+	font-size: 2em;
+	width: 10em;
+}
+
+input[type=button]:hover {
+	background: rgba(255, 255, 255, 1);
+	color: black;
+}
+
+#formResult {
+	margin: 3% auto;	
+	width: 24%;
+	font-size: 2.5em;
+}
+
+#result {
+	font-style: oblique;
+}
+
+td {
+	width: 15em;
+	padding: 1%;
+}
+
+table {
+	margin: 0 auto;
+}
